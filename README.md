@@ -22,5 +22,5 @@ print(response)
 
 ## Testes
 ```bash
-pytest tests/
+pytest tests/ --cov=getbraza --cov-report=html
 ```
